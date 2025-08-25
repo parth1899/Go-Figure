@@ -77,6 +77,10 @@ func main() {
 	a = append(a, 1, 2, 3)
 	fmt.Println(a)
 
+	a2 := []int{4, 5, 6}
+	a = append(a, a2...)
+	fmt.Println(a)
+
 	b1 := []string{"Complexity", "is the", "enemy"}
 	c1 := []string{"of", "security"}
 	b1 = append(b1, c1...)
