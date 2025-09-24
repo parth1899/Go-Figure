@@ -3,6 +3,7 @@ package main
 // Buffered channels
 
 // channel buffering is FIFO, channels in Go are FIFO (first-in, first-out) queues
+// Buffered channels accept a limited number of values without a corresponding receiver for those values.
 
 import "fmt"
 
